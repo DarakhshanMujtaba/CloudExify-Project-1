@@ -1,0 +1,39 @@
+==================================================
+SALES ANALYSIS REPORT
+==================================================
+
+Total Records Analyzed: 11971
+Date Range: 2022-01-01 to 2025-01-18
+Total Revenue: Rs 1,552,071
+Average Transaction Value: Rs 130
+Median Transaction Value: Rs 108
+
+Top 5 Categories by Revenue:
+Category
+Butchers                         208118.0
+Electric household essentials    203813.5
+Beverages                        197047.5
+Furniture                        195310.0
+Food                             194812.0
+
+Top 5 Items by Revenue:
+Item
+Item_25_FUR     25256.0
+Item_25_EHE     23083.0
+Item_25_BUT     21894.0
+Item_24_FUR     21172.0
+Item_25_FOOD    20541.0
+
+Best Performing Month: 2022-01
+Revenue in Best Month: Rs 52,912
+
+Revenue Split — Online vs In-store:
+Location
+In-store    760670.0
+Online      791401.0
+
+Data Quality Notes:
+- Original dataset had 604 rows removed due to multiple missing critical values
+- Missing Item names labeled as 'Unknown Item' (609 rows, later filled)
+- Missing Discount status labeled as 'Unknown' (3988 rows)
+==================================================
